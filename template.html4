@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html prefix="og: https://ogp.me/ns#">
+<head>
+  <meta name="viewport" content="width=device-width">
+  <meta name="generator" content="pandoc">
+  <meta property=”og:type” content=”siteweb”>
+$for(author-meta)$
+  <meta name="author" content="$author-meta$">
+$endfor$
+$if(date-meta)$
+  <meta name="date" content="$date-meta$">
+$endif$
+$if(keywords)$
+  <meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$">
+$endif$
+$if(description-meta)$
+  <meta name="description" content="$description-meta$">
+  <meta property="og:description" content="$description-meta$">
+$endif$
+  <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
+  $if(title-prefix)$<meta property="og:site_name" content="$title-prefix$">$endif$
+  <meta property="og:title" content="$pagetitle$">
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+$for(css)$
+  <link rel="stylesheet" href="$css$">
+$endfor$
+$if(picture)$
+  <meta property="og:image" class="round-image-container" content="$picture$">
+$endif$
+$for(header-includes)$
+  $header-includes$
+$endfor$
+$if(math)$
+$if(mathjax)$
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+$endif$
+  $math$
+$endif$
+</head>
+<body>
+  <header>
+    $if(picture)$
+      $if(link-back)$
+        <a href="$link-back$"><img class="round-image" src="$picture$" alt="My picture"></a>
+      $else$
+        <img class="round-image" src="$picture$" alt="My picture">
+      $endif$
+    $endif$
+    $if(author)$
+        $if(link-back)$
+          <a href="$link-back$"><h1>$author$</h1></a>
+        $else$
+          <h1>$author$</h1>
+        $endif$
+    $endif$
+    $if(shortbio)$
+    <h2>$shortbio$</h2>
+    $endif$
+    $if(email)$
+    <p><i class="fa-regular fa-envelope fa-fw"></i> <code>$email$</code></p>
+    $endif$
+    $if(location)$
+    <p><i class='fas fa-map-marker-alt'></i> $location$</p>
+    $endif$
+    <div class="icons">
+      $if(orcid)$
+      <a href="https://orcid.org/$orcid$">
+        <i class="ai ai-orcid ai-fw icon-pad-right"></i>
+        ORCID
+      </a>
+      $endif$
+      $if(dblp)$
+      <a href="$dblp$">
+        <i class="ai ai-dblp ai-fw icon-pad-right"></i>
+        dblp
+      </a>
+      $endif$
+      $if(hal)$
+      <a href="$hal$">
+        <i class="ai ai-hal ai-fw icon-pad-right"></i>
+        HAL
+      </a>
+      $endif$
+      $if(github)$
+      <a href="https://github.com/$github$">
+        <i class='bx bxl-github'></i>
+        Github
+      </a>
+      $endif$
+      $if(scholar)$
+      <a href="$scholar$">
+        <i class="ai ai-google-scholar ai-fw icon-pad-right"></i>
+        Google Scholar
+      </a>
+      $endif$
+      $if(mastodon)$
+      <a href="$mastodon$">
+        <i class='bx bxl-mastodon'></i>
+        Mastodon
+      </a>
+      $endif$
+      $if(gitlab)$
+      <a href="github.com/$gitlab$">
+        <i class='bx bxl-gitlab'></i>
+        Gitlab
+      </a>
+      $endif$
+    </div>
+  </header>
+  $if(toc)$
+  <!-- <nav> -->
+  <!--   $table-of-contents$ -->
+  <!-- </nav> -->
+  $endif$
+  <main>
+    $for(include-before)$
+    $include-before$
+    $endfor$
+
+    $body$
+
+    $for(include-after)$
+    $include-after$
+    $endfor$
+  </main>
+</body>
+</html>
