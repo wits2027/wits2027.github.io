@@ -52,7 +52,7 @@ WITS will have no published proceedings, so submitting to WITS does not interfer
 
 ### Important Dates
 
-- Abstract submission deadline: 4 November, 2026 (AoE)
+- Abstract submission deadline: November 11, 2026 (AoE). Strict deadline, no extensions.
 - Notification: 3 December, 2026
 - Workshop in Mexico City: 16 January, 2027
 
