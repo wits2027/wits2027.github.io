@@ -59,4 +59,10 @@ WITS will have no published proceedings, so submitting to WITS does not interfer
 ### PC
 
 - Yannick Forster (INRIA Paris, chair)
-- TBA
+- Conor Titania McBride (University of Strathclyde)
+- Joachim Breitner (Lean FRO)
+- Liang-Ting Chen (Academica Sinica)
+- Lourdes del Carmen González Huesca (Universidad Nacional Autónoma de México)
+- Meven Lennon-Bertrand (ENS Rennes)
+- Ningning Xie (University of Toronto)
+- to be completed
