@@ -5,7 +5,7 @@ title: WITS 2027
 # WITS 2027
 
 WITS 2027 is the 6th Workshop on the Implementation of Type Systems. The workshop will be held on January 16, 2027, in Mexico City, Mexico, 
-located in the same venue as [POPL](https://popl27.sigplan.org/).
+at the Hilton Mexico City Reforma (same venue as [POPL](https://popl27.sigplan.org/)).
 
 The goal of this workshop is to bring together the implementors of a variety of languages with advanced type systems. The main focus is on the practical issues that come up in the implementation of these systems, rather than the theoretical frameworks that underlie them. In particular, we want to encourage exchanging ideas between the communities around specific systems that would otherwise be accessible to only a very select group.
 
@@ -48,7 +48,7 @@ Both kinds of proposals should be accompanied by an abstract of max. 1 page (exc
 
 Please do not use LLMs to generate any text in the abstract.
 
-WITS will have no published proceedings, so submitting to WITS does not interfere with submission (before, after, or simultaneously) with other venues. Submissions are handled via [https://types-hotcrp.paris.inria.fr/wits27](https://types-hotcrp.paris.inria.fr/wits27) (enabled soon).
+WITS will have no published proceedings, so submitting to WITS does not interfere with submission (before, after, or simultaneously) to other venues. Submissions are handled via [https://types-hotcrp.paris.inria.fr/wits27](https://types-hotcrp.paris.inria.fr/wits27) (enabled soon).
 
 ### Important Dates
 
@@ -59,10 +59,10 @@ WITS will have no published proceedings, so submitting to WITS does not interfer
 ### PC
 
 - Yannick Forster (INRIA Paris, chair)
+- Chris Martens (Northeastern University)
 - Conor Titania McBride (University of Strathclyde)
 - Joachim Breitner (Lean FRO)
-- Liang-Ting Chen (Academica Sinica)
+- Liang-Ting Chen (Academia Sinica)
 - Lourdes del Carmen González Huesca (Universidad Nacional Autónoma de México)
 - Meven Lennon-Bertrand (ENS Rennes)
 - Ningning Xie (University of Toronto)
-- to be completed
